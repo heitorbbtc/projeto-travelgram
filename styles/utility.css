@@ -1,0 +1,42 @@
+
+
+@media (width <= 70rem) {
+
+    nav ul {
+      gap: .5rem;
+    }
+
+    #profile {
+      display: block;
+      margin-bottom: 2rem;
+      min-width: 20rem;
+      
+      & igm {
+        margin-bottom: 1rem;
+      }
+    }
+
+    .intro {
+      flex-wrap: wrap;
+    }
+
+}
+
+  
+
+  @media (width <= 40rem) {
+    .desktop-only {
+      display: none;
+    }
+    
+    footer {
+      flex-wrap: wrap;
+      width: 100%;
+
+      & span:nth-child(1) {
+        margin: auto;
+      }
+    }
+  }
+
+
